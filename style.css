@@ -1,0 +1,89 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --fundo-preto: #00030C;
+    --botao-azul: #167BF7;
+    --fonte-principal: 'Inter';
+}
+.{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: var(--fundo-preto);
+    font-family: var(--fonte-principal);
+    color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.principal{
+    color: var(--branco-principal);
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_botao{
+    border-radius: 5px;
+    display: block;
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    text-decoration: none;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+.container_aviso{
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+.container_titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+.container__caixa {
+    margin: 0 6em;
+}
+
+/*inicio da segunda section*/
+
+.secundario{
+    margin: 0 10em;
+    align-items: center;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao_texto{
+    color: var(--cinza-secundario);
+    margin-right: 2em;
+}
+
+/*terceira section*/
+
+.secundario_botao{
+    background-color: var(--botao-azul);
+    display: inline-block;
+    margin-top: 1em;
+}
